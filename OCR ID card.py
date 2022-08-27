@@ -179,7 +179,9 @@ def predict(url, appcode, img_base64, kv_configure):
 root = Tk()
 root.title("身份证信息批量获取")
 path = StringVar()
+
 appcode = '' #阿里云接口APPCODE,阿里云1分钱500次调用，https://market.aliyun.com/products/57124001/cmapi010401.html?spm=5176.2020520132.101.3.4e157218wordQA#sku=yuncode440100000
+
 url = 'http://dm-51.data.aliyun.com/rest/160601/ocr/ocr_idcard.json'
 configure = {'side':'face'}
 flag = 0
